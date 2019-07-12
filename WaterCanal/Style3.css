@@ -1,0 +1,134 @@
+﻿body {
+    background-color: #ecfffd;
+}
+.header{
+    position: absolute;
+
+}
+#Image1 {
+    border-radius: 65%; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.firma {
+    font-family: "Century Gothic";
+    display: inline-block;
+    position: absolute;
+
+    left: 380px;
+    height: 88px;
+    width: 554px;
+    
+   
+
+    padding: 0.5em;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+    top: 14px;
+}
+
+ .phone{
+        display: inline-block;
+        position: absolute;
+        left: 211px;
+        top: 52px;
+        
+        color: #0026ff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+
+        width: 140px;
+    height: 30px;
+}
+
+.LC {
+    font-family: "Century Gothic";
+    font-style: italic;
+    position: absolute;
+    top: 5px;
+    left: 1073px;
+    width: 220px;
+    height: 108px;
+}
+ .LC input[type=button], .LC input[type=reset] {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+    .LC input[type=button], .But {
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+
+        border-radius: 1px;
+        background: rgb(64,199,129);
+        box-shadow: 0 -3px rgb(53,167,110) inset;
+        transition: 0.2s;
+    }
+
+        .LC input[type=button]:hover, .But:hover {
+            background: rgb(53, 167, 110);
+        }
+
+        .LC input[type=button]:active, .But:active {
+            background: rgb(33,147,90);
+            box-shadow: 0 3px rgb(33,147,90) inset;
+        }
+    .LC input[type=reset] {
+        display: inline-block;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        user-select: none;
+
+        outline: none;
+        border: 1px solid;
+        border-radius: 1px;
+        transition: 0.2s;
+    }
+
+    .LC input[type=reset]:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .LC input[type=reset]:active {
+        background: white;
+    }
+
+.coldWater {
+    font-family: "Century Gothic";
+    font-style: italic;
+    position: absolute;
+    top: 173px;
+    left: 28px;
+    height: 384px;
+    width: 320px;
+   
+    margin: 1em auto;
+    padding: 1em;
+    box-shadow: 6px 0 4px -4px  rgba(0, 0, 0, .2);
+}
+.hotWater {
+    font-family: "Century Gothic";
+    font-style: italic;
+    position: absolute;
+    top: 171px;
+    left: 456px;
+    height: 384px;
+    width: 320px;
+    margin: 1em auto;
+    padding: 1em;
+    box-shadow: 6px 0 4px -4px rgba(0, 0, 0, .2);
+}
+.infoBill {
+    font-family: "Century Gothic";
+    font-style: italic;
+    position: absolute;
+    top: 171px;
+    left: 893px;
+    height: 384px;
+    width: 320px;
+    margin: 1em auto;
+    padding: 1em;
+   
+}
+
